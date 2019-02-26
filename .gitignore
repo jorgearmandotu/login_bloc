@@ -1,0 +1,420 @@
+# Creado por https://www.gitignore.io/api/dart,swift,xcode,android,intellij,cocoapods,objective-c,androidstudio
+
+# ## Android ###
+# Archivos de aplicación construidos
+* .apk
+* .ap_
+
+# Archivos para el ART / Dalvik VM
+* .dex
+
+# Archivos de clase Java
+* .clase
+
+# Archivos generados
+bin /
+gen /
+hacia fuera /
+
+# Archivos Gradle
+.gradle /
+construir /
+
+# Archivo de configuración local (ruta sdk, etc.)
+propiedades locales
+
+Carpeta # Proguard generada por Eclipse
+proguard /
+
+# Archivos de registro
+* .log
+
+# Archivos de temperatura de Android Studio Navigation editor
+.navigacion /
+
+# Android Studio captura la carpeta
+captura /
+
+# Intellij
+* .iml
+.idea / workspace.xml
+.idea / tasks.xml
+.idea / gradle.xml
+.idea / diccionarios
+.idea / bibliotecas
+
+# Carpeta de compilación nativa externa generada en Android Studio 2.2 y versiones posteriores
+.ExternalNativeBuild
+
+# Freeline
+freeline.py
+línea libre /
+freeline_project_description.json
+
+# ## Android Patch ###
+gen-external-apklibs
+
+# ## AndroidStudio ###
+# Cubre los archivos que se ignorarán para el desarrollo de Android con Android Studio.
+
+# Archivos de aplicación construidos
+
+# Archivos para el ART / Dalvik VM
+
+# Archivos de clase Java
+
+# Archivos generados
+
+# Archivos Gradle
+.gradle
+
+# Firmando archivos
+.signing /
+
+# Archivo de configuración local (ruta sdk, etc.)
+
+Carpeta # Proguard generada por Eclipse
+
+# Archivos de registro
+
+# Android Studio
+/ * / construir /
+/ * / local.properties
+/ * / fuera
+/ * / * / build
+/ * / * / producción
+* .ipr
+* ~
+* .swp
+
+# Parche de Android
+
+# Carpeta de compilación nativa externa generada en Android Studio 2.2 y versiones posteriores
+
+# NDK
+obj /
+
+# IntelliJ IDEA
+* .iws
+/ fuera /
+
+# Configuraciones específicas del usuario
+.idea / bibliotecas /
+.idea / .name
+.idea / compiler.xml
+.idea / copyright / profiles_settings.xml
+.idea / encodings.xml
+.idea / misc.xml
+.idea / modules.xml
+.idea / scopes / scope_settings.xml
+.idea / vcs.xml
+.idea / jsLibraryMappings.xml
+.idea / datasources.xml
+.idea / dataSources.ids
+.idea / sqlDataSources.xml
+.idea / dynamic.xml
+.idea / uiDesigner.xml
+
+# Archivos específicos del sistema operativo
+.DS_Store
+.DS_Store ?
+._ *
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Archivos de proyecto de Eclipse heredados
+.classpath
+.proyecto
+
+# Herramientas móviles para Java (J2ME)
+.mtj.tmp /
+
+# Archivos de paquete #
+* .war
+* .ear
+
+# registros de bloqueos de máquinas virtuales (Referencia: http://www.java.com/en/download/help/error_hotspot.xml)
+hs_err_pid *
+
+# # Archivos específicos del plugin:
+
+# mpeltonen / sbt-idea plugin
+.idea_modules /
+
+# Plugin JIRA
+atlassian-ide-plugin.xml
+
+# Mongo Explorer plugin
+.idea / mongoSettings.xml
+
+# Crashlytics plugin (para Android Studio e IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# ## AndroidStudio Patch ###
+
+! / gradle / wrapper / gradle-wrapper.jar
+
+# ## CocoaPods ###
+Plantilla # # CocoaPods GitIgnore
+
+# CocoaPods: use solo para conservar el ancho de banda / Ahorre tiempo al pulsar
+#            - También es útil si tiene un número elevado de pods dependientes
+#            - SEGÚN https://guides.cocoapods.org/using/using-cocoapods.html NUNCA IGONRE EL ARCHIVO DE BLOQUEO
+Vainas /
+
+# ## Dart ###
+# Ver https://www.dartlang.org/tools/private-files.html
+
+# Archivos y directorios creados por pub.
+.paquetes
+.pub /
+# Si está creando una aplicación, es posible que desee registrar su pubspec.lock
+pubspec.lock
+
+# Directorio creado por dartdoc
+# Si no genera documentación localmente, puede eliminar esta línea.
+doc / api /
+
+# ## Intellij ###
+# Cubre los IDE de JetBrains: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio y Webstorm
+# Referencia: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# Cosas específicas del usuario:
+.idea / ** / workspace.xml
+.idea / ** / tasks.xml
+
+# Archivos sensibles o de alta rotación:
+.idea / ** / dataSources /
+.idea / ** / dataSources.ids
+.idea / ** / dataSources.xml
+.idea / ** / dataSources.local.xml
+.idea / ** / sqlDataSources.xml
+.idea / ** / dynamic.xml
+.idea / ** / uiDesigner.xml
+
+# Gradle:
+.idea / ** / gradle.xml
+.idea / ** / bibliotecas
+
+# CMake
+cmake-build-debug /
+
+# Complemento de Mongo Explorer:
+.idea / ** / mongoSettings.xml
+
+# # Formato de proyecto basado en archivos:
+
+# # Archivos específicos del plugin:
+
+# IntelliJ
+
+# mpeltonen / sbt-idea plugin
+
+# Plugin JIRA
+
+# Cursivo Clojure plugin
+.idea / replstate.xml
+
+# Crashlytics plugin (para Android Studio e IntelliJ)
+
+# ## Intellij Patch ###
+# Razón del comentario: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+# * .iml
+# modules.xml
+# .idea / misc.xml
+# * .ipr
+
+# Sonarlint plugin
+.idea / sonarlint
+
+# ## Objective-C ###
+# Xcode
+#
+# gitignore contributors: recuerde actualizar Global / Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+# # Generación generada
+DerivedData /
+
+# # Varios ajustes
+* .pbxuser
+! default.pbxuser
+* .mode1v3
+! default.mode1v3
+* .mode2v3
+! default.mode2v3
+* .perspectivev3
+! default.perspectivev3
+xcuserdata /
+
+# # Otros
+*. movido a un lado
+* .xccheckout
+* .xcscmblueprint
+
+# # Obj-C / Swift especifico
+* .hmap
+* .ipa
+* .dSYM.zip
+* .dSYM
+
+# CocoaPods - Refactored to standalone file
+
+
+# Cartago - Refactored a un archivo independiente
+
+# Fastlane
+#
+# Se recomienda no almacenar las capturas de pantalla en el repositorio de git. En su lugar, utilice fastlane para volver a generar el
+# capturas de pantalla cuando sea necesario.
+# Para obtener más información acerca de la visita de configuración recomendada:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+fastlane / report.xml
+fastlane / Preview.html
+fastlane / screenshots
+fastlane / test_output
+
+# Código de inyección
+#
+# Después de las nuevas herramientas de inyección de código, se genera una carpeta / iOSInjectionProject
+# https://github.com/johnno1962/injectionforxcode
+
+Proyecto de inyección de iOS /
+
+# ## Parche Objective-C ###
+
+# ## Swift ###
+# Xcode
+#
+# gitignore contributors: recuerde actualizar Global / Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+# # Generación generada
+
+# # Varios ajustes
+
+# # Otros
+
+# # Obj-C / Swift especifico
+
+# # Parques infantiles
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+#
+# Agregue esta línea si desea evitar ingresar el código fuente de las dependencias de Swift Package Manager.
+# Paquetes /
+# Package.pins
+.build /
+
+# CocoaPods - Refactored to standalone file
+
+# Cartago - Refactored a un archivo independiente
+
+# Fastlane
+#
+# Se recomienda no almacenar las capturas de pantalla en el repositorio de git. En su lugar, utilice fastlane para volver a generar el
+# capturas de pantalla cuando sea necesario.
+# Para obtener más información acerca de la visita de configuración recomendada:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+
+# ## Xcode ###
+# Xcode
+#
+# gitignore contributors: recuerde actualizar Global / Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+# # Generación generada
+
+# # Varios ajustes
+
+# # Otros
+
+# ## Parche Xcode ###
+* .xcodeproj / *
+! * .xcodeproj / project.pbxproj
+! * .xcodeproj / xcshareddata /
+! * .xcworkspace / contents.xcworkspacedata
+/ * .gcno
+
+# Construir archivos
+construir /
+
+# Fin de https://www.gitignore.io/api/dart,swift,xcode,android,intellij,cocoapods,objective-c,androidstudio
+# Miscellaneous
+*.class
+*.lock
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code related
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Android related
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+
+# iOS/XCode related
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/.vagrant/
+**/ios/**/DerivedData/
+**/ios/**/Icon?
+**/ios/**/Pods/
+**/ios/**/.symlinks/
+**/ios/**/profile
+**/ios/**/xcuserdata
+**/ios/.generated/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Exceptions to above rules.
+!**/ios/**/default.mode1v3
+!**/ios/**/default.mode2v3
+!**/ios/**/default.pbxuser
+!**/ios/**/default.perspectivev3
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
