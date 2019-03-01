@@ -22,7 +22,7 @@ class LoginScreen extends StatelessWidget {
     return StreamBuilder(
         stream: bloc.email,
         builder: (context, snapshot) {
-          TextField(
+          return TextField(
             onChanged: bloc.changeEmail,
             keyboardType: TextInputType.emailAddress,
             decoration: InputDecoration(
@@ -38,28 +38,33 @@ class LoginScreen extends StatelessWidget {
     return StreamBuilder(
       stream: bloc.password,
       builder: (context, snapshot) {
-        TextField(
+        return TextField(
           onChanged: bloc.changePassword,
           obscureText: true, //no deja q se vea el texto digitado
-          decoration:
-              InputDecoration(
-                hintText: 'Password', 
-                labelText: 'Password',
-                errorText: snapshot.error,
-                ),
+          decoration: InputDecoration(
+            hintText: 'Password',
+            labelText: 'Password',
+            errorText: snapshot.error,
+          ),
         );
       },
     );
   }
 
   Widget submitButton() {
-    return RaisedButton(
-      child: Text(
-        'Login',
-        style: TextStyle(color: Colors.white),
-      ),
-      color: Colors.lightBlue,
-      onPressed: () {},
+    return StreamBuilder(
+      stream: bloc.submitValid,
+      builder: (context, snapshot) {
+        return RaisedButton(
+          shape: StadiumBorder(),
+          child: Text(
+            'Login',
+            style: TextStyle(color: Colors.white),
+          ),
+          color: Colors.lightBlue,
+          onPressed: snapshot.hasData ?  bloc.submit : null,
+        );
+      },
     );
   }
 }
